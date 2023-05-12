@@ -110,15 +110,15 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 ; OOOO$ <
 ```
 
-### Generate random bytes over and over
+### Switchy bit
 
 ```nii
-> XBo v
+> Xbo v
 #      
 ^     <
 ```
 
-### Generate random nibbles in a square over and over
+### Mirrored switchy nibble
 
 ```nii
 v                          <
