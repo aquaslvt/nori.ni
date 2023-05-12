@@ -179,6 +179,7 @@ def run():
 
     elif char == '#':
       time.sleep(0.1)
+      sys.stdout.flush()
 
     elif char == '_':
       conn = cups.Connection()
