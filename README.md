@@ -109,12 +109,12 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 ; OOOO$ <
 ```
 
-### Random binary sequence
+### Random binary sequence screensaver
 
 ```nii
-> bO v
-#     
-^    <
+> X > bO v
+    #     
+    ^    <
 ```
 
 ### Switchy bit
