@@ -21,7 +21,6 @@ The interpreter ignores every other character than these, making them no-op
 | `^`   | Up        |
 | `v`   | Down      |
 
-
 ### Main commands
 
 | Command     | Description                                                           |
