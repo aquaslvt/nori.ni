@@ -109,6 +109,14 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 ; OOOO$ <
 ```
 
+### Random binary sequence
+
+```nii
+> bO v
+#     
+^    <
+```
+
 ### Switchy bit
 
 ```nii
