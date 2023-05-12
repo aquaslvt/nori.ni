@@ -1,4 +1,4 @@
-<img align="right" height="145" src=".meow/nori.fi.png">
+<img align="right" height="145" src=".meow/nori.fi.svg">
 
 # nori.ni
 
