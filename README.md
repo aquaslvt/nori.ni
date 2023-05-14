@@ -20,12 +20,13 @@ The interpreter ignores every other character than these, making them no-op
 | `>`   | Right     |
 | `^`   | Up        |
 | `v`   | Down      |
+| `Q`   | Random    |
 
 ### Main commands
 
 | Command     | Description                                                           |
 | ----------- | --------------------------------------------------------------------- |
-| `0`-`9`     | Push the corrisponding number                                         |
+| `0`-`F`     | Push the corrisponding hex number                                     |
 | `!`         | Pop the last value                                                    |
 | `N`         | Push numeric user input                                               |
 | `I`         | Push user input                                                       |
