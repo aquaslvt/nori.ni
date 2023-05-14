@@ -28,7 +28,8 @@ x = 0
 y = 0
 direction = ''
 
-numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+directions = ['left', 'right', 'up', 'down']
+numbers = ['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F']
 
 def run():
   global stack, char, code, x, y, direction, numbers
@@ -62,6 +63,9 @@ def run():
     
     elif char == 'v':
       direction = 'down'
+
+    elif char == 'Q':
+      direction = directions[random.randint(0,3)]
 
     elif char == ';':
       sys.exit()
@@ -97,7 +101,7 @@ def run():
       stack.pop()
     
     elif char in numbers:
-      stack.append(int(char))
+      stack.append(int(char, 16))
 
     elif char == '\'':
       x += 1
@@ -166,12 +170,6 @@ def run():
 
     elif char == 'b':
       stack.append(random.randint(0, 1))
-
-    elif char == 'B':
-      byte = ''
-      for bit in range(1, 8):
-        byte = byte + str(random.randint(0, 1)) 
-      stack.append(int(byte))
 
     elif char == '?':
       if stack.pop() == 0:
