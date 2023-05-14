@@ -142,3 +142,5 @@ A very small os made in under an hour
                                                                              > 0. NNX@:O ' + ' O:O+ ' = ' OO 0. v
              ^                                                                                                  <
 ```
+
+<p align="center"><img src="https://nukocities.neocities.org/nuko/sets/cat80.gif"></img></p>
