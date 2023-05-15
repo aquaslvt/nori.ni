@@ -127,6 +127,15 @@ def run():
       a = stack.pop(0)
       stack.insert(-1, a)
 
+    elif char == ':':
+      stack.append(stack[-1])
+
+    elif char == '@':
+      stack[-1], stack[-2] = stack[-2], stack[-1]
+
+    elif char == '$':
+      stack.reverse()
+
     # Math commands
 
     elif char == '+':
@@ -168,17 +177,20 @@ def run():
     elif char == 'r':
       stack.append(random.random())
 
-    elif char == ':':
-      stack.append(stack[-1])
-
-    elif char == '@':
-      stack[-1], stack[-2] = stack[-2], stack[-1]
-
-    elif char == '$':
-      stack.reverse()
+    # Misc
 
     elif char == 'b':
       stack.append(random.randint(0, 1))
+
+    elif char == '|':
+      a = stack.pop()
+      b = stack.pop()
+      stack.append(a | b)
+
+    elif char == '&':
+      a = stack.pop()
+      b = stack.pop()
+      stack.append(a & b)
 
     elif char == '?':
       if stack.pop() == 0:
