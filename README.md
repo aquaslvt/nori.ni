@@ -62,8 +62,6 @@ You can define strings using `''` brackets, for example, `>'Hi'o;` pushes the st
 
 Here are some example programs! There are a lot of them (send help they spawn every single nanosecond I breathe)
 
-*Please note that currently, the IP is space-sensitive(?), it can't travel through empty spaces*
-
 ### Cat program [<img src="https://nukocities.neocities.org/nuko/act/cat1.gif">](https://github.com/mkukiro/nori.ni/tree/develop#cat-program-)
 
 ```>IO;```
