@@ -119,6 +119,14 @@ def run():
 
       stack.append(''.join(string_temp))
 
+    elif char == 'V':
+      a = stack.pop()
+      stack.insert(0, a)
+
+    elif char == 'W':
+      a = stack.pop(0)
+      stack.insert(-1, a)
+
     # Math commands
 
     elif char == '+':
@@ -168,14 +176,6 @@ def run():
 
     elif char == '$':
       stack.reverse()
-
-    elif char == 'V':
-      a = stack.pop()
-      stack.insert(0, a)
-
-    elif char == 'W':
-      a = stack.pop(0)
-      stack.insert(-1, a)
 
     elif char == 'b':
       stack.append(random.randint(0, 1))
