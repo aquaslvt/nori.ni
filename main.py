@@ -219,4 +219,4 @@ def run():
 try:
   run()
 except KeyboardInterrupt:
-  print('\n\nExited with ^C')
+  print('\n\n\033[31mExited with ^C')
