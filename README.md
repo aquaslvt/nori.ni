@@ -1,6 +1,6 @@
 <img align="right" height="145" src=".meow/nori.fi.svg">
 
-# nori.ni
+# nori.ni <img src="https://nukocities.neocities.org/nuko/sets/cat325.gif">
 
 nori.ni (aka nori.fi) is basically a sequel to [nori.io](https://github.com/mkukiro/nori.io)
 
