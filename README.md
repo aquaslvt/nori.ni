@@ -37,6 +37,8 @@ The interpreter ignores every other character than these, making them no-op
 | `.`         | Output the last ASCII value to the console then pop it                |
 | `@`         | Swap the last two values                                              |
 | `$`         | Reverse the whole stack                                               |
+| `V`         | Move the last value on the stack to the bottom                        |
+| `W`         | Move the bottom value on the stack to the top                         |
 | `:`         | Duplicate the top value                                               |
 | `+`         | Add last two values together, leaving only the result                 |
 | `-`         | Subtract last two values together, leaving only the result            |
@@ -49,6 +51,8 @@ The interpreter ignores every other character than these, making them no-op
 | `f`         | Floor the last number                                                 |
 | `r`         | Push a random number                                                  |
 | `b`         | Push a random bit (either 0 or 1)                                     |
+| `|`         | Bitwise OR                                                            |
+| `&`         | Bitwise AND                                                           |
 | `?`         | The next instruction is only executed if the popped value is non-zero |
 | `#`         | Wait 1ms                                                              |
 
