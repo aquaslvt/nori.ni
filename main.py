@@ -204,9 +204,11 @@ def run():
       conn = cups.Connection()
       default_printer = conn.getDefault()
 
+      spoings = ['chef_spoing.pdf', 'spoing.pdf'] 
+
       if default_printer:
         printer = conn.getPrinters()
-        print_job_id = conn.printFile(default_printer, '.meow/spoing.pdf', 'Print Job', {})
+        print_job_id = conn.printFile(default_printer, f'.meow/{spoings[random.randint(0,1)]}', 'Print Job', {})
 
         if print_job_id:
           print('Ayo, look at your printer >:3')
