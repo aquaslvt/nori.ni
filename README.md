@@ -51,7 +51,7 @@ The interpreter ignores every other character than these, making them no-op
 | `f`         | Floor the last number                                                 |
 | `r`         | Push a random number                                                  |
 | `b`         | Push a random bit (either 0 or 1)                                     |
-| `|`         | Bitwise OR                                                            |
+| `\|`         | Bitwise OR                                                            |
 | `&`         | Bitwise AND                                                           |
 | `?`         | The next instruction is only executed if the popped value is non-zero |
 | `#`         | Wait 1ms                                                              |
