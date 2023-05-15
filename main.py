@@ -21,8 +21,11 @@ else:
 
 with open(file_argument, 'r') as file:
     for line in file:
-        row = [char for char in line.rstrip('\n')]
+        row = [char if char != ' ' else '' for char in line.rstrip('\n')]
         code.append(row)
+
+# Adjust the length of each row by padding with empty strings
+code = [row + [''] * (max(len(row) for row in code) - len(row)) for row in code]
 
 x = 0
 y = 0
