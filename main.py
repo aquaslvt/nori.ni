@@ -7,8 +7,8 @@ import cups
 # import toml
 
 stack = []
-char = ''
 code = []
+char = ''
 
 # Search for file arguments
 
