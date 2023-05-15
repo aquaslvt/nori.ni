@@ -144,4 +144,16 @@ A very small os made in under an hour
              ^                                                                                                  <
 ```
 
+### nioOS 2nd pak
+
+nioOS but with different more useless, playful programs
+
+```nii
+> X 'nioOS'o v
+             > 0. '1 - Screensaver'o '0 - print!'o '^C - Exit'o ··· '-> 'O N ?v_;
+                                                                              > X > bO v
+                                                                                  #     
+                                                                                  ^    <
+```
+
 <p align="center"><img src="https://nukocities.neocities.org/nuko/sets/cat80.gif"></img></p>
