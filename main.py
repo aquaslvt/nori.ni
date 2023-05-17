@@ -192,6 +192,11 @@ def run():
       b = stack.pop()
       stack.append(a & b)
 
+    elif char == '~':
+      a = stack.pop()
+      b = stack.pop()
+      stack.append(a ^ b)
+
     elif char == '?':
       if stack.pop() == 0:
         x += 1
