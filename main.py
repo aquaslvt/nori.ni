@@ -93,12 +93,19 @@ def run():
       os.system('clear')
 
     elif char == ',':
-     a = input()
-     for character in a:
-       stack.append(ord(character))
+      a = input()
+      for character in a:
+        stack.append(ord(character))
 
     elif char == '.':
-     print(chr(stack.pop()))
+      print(chr(stack.pop()))
+
+    elif char == 'k':
+      stack.append(int(input(), 2))
+
+    elif char == 'K':
+      print(format(stack.pop(), '04b'))
+
 
     # Stack manipulation commands
 
