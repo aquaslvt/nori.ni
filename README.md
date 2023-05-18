@@ -57,6 +57,7 @@ The interpreter ignores every other character than these, making them no-op
 | `&`         | Bitwise AND                                                           |
 | `~`         | Birwise XOR                                                           |
 | `?`         | The next instruction is only executed if the popped value is non-zero |
+| `=`         | The next instruction is only executed if the popped values are equal  |
 | `#`         | Wait 1ms                                                              |
 
 nori.ni arithmetic is NOS × TOS, meaning that `>32*;`, for example, will duplicate 3 (2nd value) by 2 (last value)
