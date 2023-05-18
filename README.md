@@ -138,6 +138,19 @@ v                          <
 >X b:Ob:O 0. 1@-1@-OO 0. # ^
 ```
 
+### Bitwise AND game
+
+Guess what happens to these numbers when you operate & on them!
+
+```nii
+>X r:K r:K &   k=v'Wrong!'o;
+                 >'Right!'o v
+
+
+
+^  # #        #         # # <
+```
+
 ### nioOS
 
 A very small os made in under an hour
