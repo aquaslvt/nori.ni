@@ -147,9 +147,7 @@ Guess what happens to these numbers when you operate & on them!
 >X r:K r:K &   k=v'Wrong!'o;
                  >'Right!'o v
 
-
-
-^  # #        #         # # <
+^                     ##### <
 ```
 
 ### nioOS
