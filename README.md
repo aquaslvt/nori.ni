@@ -49,7 +49,7 @@ The interpreter ignores every other character than these, making them no-op
 | `%`         | Modulo last two values together, leaving only the result              |
 | `c`         | Ceil the last number                                                  |
 | `f`         | Floor the last number                                                 |
-| `r`         | Push a random number                                                  |
+| `r`         | Push a random number (0-15)                                           |
 | `b`         | Push a random bit (either 0 or 1)                                     |
 | `\|`        | Bitwise OR                                                            |
 | `&`         | Bitwise AND                                                           |
