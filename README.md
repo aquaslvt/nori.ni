@@ -31,10 +31,12 @@ The interpreter ignores every other character than these, making them no-op
 | `N`         | Push numeric user input                                               |
 | `I`         | Push user input                                                       |
 | `,`         | Push the user input as an ASCII value                                 |
+| `k`         | Push the binary user input as an integer                              |
 | `O`         | Output the last value to the console then pop it                      |
 | `o`         | Output the last value to the console then pop it w/newline            |
-| `X`         | Clear the console                                                     |
 | `.`         | Output the last ASCII value to the console then pop it                |
+| `K`         | Output the last value to the console as binary                        |
+| `X`         | Clear the console                                                     |
 | `@`         | Swap the last two values                                              |
 | `$`         | Reverse the whole stack                                               |
 | `V`         | Move the last value on the stack to the bottom                        |
