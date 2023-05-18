@@ -175,7 +175,7 @@ def run():
       stack.append(math.floor(stack.pop()))
 
     elif char == 'r':
-      stack.append(random.random())
+      stack.append(random.randint(0,15))
 
     # Misc
 
@@ -196,6 +196,12 @@ def run():
       a = stack.pop()
       b = stack.pop()
       stack.append(a ^ b)
+
+    elif char == '=':
+      a = stack.pop()
+      b = stack.pop()
+      if a != b:
+        x += 1
 
     elif char == '?':
       if stack.pop() == 0:
