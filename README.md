@@ -72,7 +72,9 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 
 ### Cat program [<img src="https://nukocities.neocities.org/nuko/act/cat1.gif">](https://github.com/mkukiro/nori.ni/tree/develop#cat-program-)
 
-```>IO;```
+```nii
+>IO;
+```
 
 ### Infinite cat program
 
@@ -84,7 +86,9 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 
 ### Numerical cat program
 
-```>NO;```
+```nii
+>NO;
+```
 
 ### Truth machine
 
@@ -98,15 +102,21 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 
 ### Bit inverter
 
-```1@-```
+```nii
+1@-
+```
 
 ### Hello world
 
-```>'Hello, world!'o;```
+```nii
+>'Hello, world!'o;
+```
 
 ### Cool adder
 
-```NN@:O ' + ' O:O+ ' = ' OO```
+```nii
+NN@:O ' + ' O:O+ ' = ' OO
+```
 
 ### Transgender cube
 
@@ -172,6 +182,18 @@ nioOS but with different more useless, playful programs
                                                                               > X > bO v
                                                                                   #     
                                                                                   ^    <
+```
+
+### nioOS 3rd pak
+
+nioOS but with games!
+
+```nii
+> X 'nioOS'o v
+             > 0. '1 - AND& 'o '0 - !field'o '^C - Exit'o ··· '-> 'O N ?v_;
+                                                                        > X > bO v
+                                                                            #     
+                                                                            ^    <
 ```
 
 <p align="center"><img src="https://nukocities.neocities.org/nuko/sets/cat80.gif"></img></p>
