@@ -184,16 +184,17 @@ nioOS but with different more useless, playful programs
                                                                                   ^    <
 ```
 
-### nioOS 3rd pak
+### Simple guessing game
 
-nioOS but with games!
+Guess a number between 1 and 3!
 
 ```nii
-> X 'nioOS'o v
-             > 0. '1 - AND& 'o '0 - !field'o '^C - Exit'o ··· '-> 'O N ?v_;
-                                                                        > X > bO v
-                                                                            #     
-                                                                            ^    <
+v
+X                                       >   v
+                                        1
+> 'Pick a number between 1 and 3! 'ON   Q 2 > =v 0. 'Nope :('o;
+                                        3      > 0. 'You guessed it right :D!'o;
+                                        >   ^
 ```
 
 <p align="center"><img src="https://nukocities.neocities.org/nuko/sets/cat80.gif"></img></p>
