@@ -127,6 +127,14 @@ NN@:O ' + ' O:O+ ' = ' OO
 ; OOOO$ <
 ```
 
+### Binary counter
+
+```nii
+>0 >X1+:v
+   #    K
+   ^    <
+```
+
 ### Random binary sequence screensaver
 
 ```nii
