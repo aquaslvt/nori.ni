@@ -6,7 +6,7 @@ nori.ni (aka nori.fi) is basically a sequel to [nori.io](https://github.com/mkuk
 
 It is a 2D, stack-based esolang which like nori.io, was named after Nori, a beautiful stray cat that I'm planning to adopt!
 
-To run `main.nii` just type `python main.py`, if you want to run another file, use `python main.py path/to/file`
+To run `main.nii` just type `python main.py`, if you want to run another file, use `python main.py path/to/file.nii`
 
 ## Commands
 
