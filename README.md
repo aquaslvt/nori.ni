@@ -118,15 +118,6 @@ Here are some example programs! There are a lot of them (send help they spawn ev
 NN@:O ' + ' O:O+ ' = ' OO
 ```
 
-### Transgender cube
-
-```nii
-> 1969  v
-🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️
-🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️🏳️‍⚧️
-; OOOO$ <
-```
-
 ### Binary counter
 
 ```nii
