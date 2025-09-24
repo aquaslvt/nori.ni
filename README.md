@@ -26,7 +26,7 @@ The interpreter ignores every other character than these, making them no-op
 
 | Command     | Description                                                           |
 | ----------- | --------------------------------------------------------------------- |
-| `0`-`F`     | Push the corrisponding hex number as an integer                       |
+| `0`-`F`     | Push the corrisponding HEX number as an integer                       |
 | `!`         | Pop the last value                                                    |
 | `N`         | Push numeric user input                                               |
 | `I`         | Push user input                                                       |
